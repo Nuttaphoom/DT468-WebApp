@@ -12,6 +12,7 @@
         .SubTopicFlex { 
             display: flex ;
             flex-wrap: nowrap;
+            flex-direction: row;
         }
 
         .div { 
@@ -71,8 +72,6 @@
 
         }
 
-
-
         .talbeblock { 
             display:  inline-block ;
             vertical-align: top ;
@@ -116,4 +115,9 @@
 
 
          
+  @media screen and (max-width: 1000px) { 
+    .SubTopicFlex { 
+        flex-direction: column;  
+    }
+  }
         
