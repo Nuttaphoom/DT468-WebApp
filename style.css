@@ -9,7 +9,10 @@
             width:  70%;
         }
 
-
+        .SubTopicFlex { 
+            display: flex ;
+            flex-wrap: nowrap;
+        }
 
         .div { 
             border: 10px red solid;            
@@ -18,7 +21,7 @@
         .Content { 
             font-family: "Kanit";
             color: black;
-            background-color: gray;
+            background-color: #d7ccbe;
 
         }
 
@@ -31,22 +34,17 @@
             color: #B7A897;
             background-color: #3E3533;
         }
-        .Content p  { 
-            border-radius: 5px; 
-            color : white;
-            background-color:#B7A897 ;
-
-        }
+       
 
         .Content h3 { 
             color: #B7A897; 
             font-size: 1.25em;
         }
         
-        .Content div   { 
+        .Content .div   { 
             border-radius: 5px;
             color : white  ;
-            background-color:#63544B ;
+            background-color:#e3ddd9 ;
         }
 
         .Content table { 
@@ -65,7 +63,7 @@
             background-color: yellow;
         }
         
-        .topPanel { 
+        #TopBackgroundPanel { 
             background: no-repeat center/cover url("https://i.pinimg.com/originals/63/4f/c7/634fc7589ecb8b3229528763c2a246a1.jpg") ;
             display : inline-block;  
             width: 100%  ; 
@@ -73,20 +71,44 @@
 
         }
 
-        .topPanel h1 { 
-            color : white  ;
-        }
+
 
         .talbeblock { 
             display:  inline-block ;
             vertical-align: top ;
             width: 140px  ; 
+            margin: 10px;
         }
 
         .talbeblock .Content { 
-            background-color: white;
+            background-color: white ;
         }
  
+        .SubSet { 
+            padding: 10px;
+            background-color: #B7A897;
+            margin: 0.5%;
+        }
+
+        .topPanel   { 
+            background-color: #615957;
+            display: flex ;
+            justify-content: space-between ;
+            height: 30px ;
+            align-items: center;
+        }
+
+        .topPanel #Cat_HeaderName  {
+            color: white;
+            font-size: 25px ;
+        }
+
+        .topPanel #Cat_SubHeaderName { 
+            color: white;
+            text-align: right;
+            font-size: 25px ;
+        }
+     
 
        
 
